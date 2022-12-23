@@ -1,0 +1,87 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+  }
+  
+.background {
+
+  background-repeat: no-repeat;
+  background-size: 61%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+    
+.navMenu {
+    position: absolute;
+    top: 3%;
+    left: 79%;
+  
+    
+  }
+
+  .navMenu a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 300;
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    transition: all o.2s ease-in-out;
+    font-family: 'poppins', sans-serif;
+    background: rebeccapurple;
+    padding: 3px;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px yellow;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow-transform;
+    transition-property: box-shadow, transform;
+    
+
+    
+
+
+  }
+  .navMenu a:hover, .navMenu a:active, .navMenu a:focus {
+    color: white;
+    background-color: red;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+    
+  
+
+/*home*/
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Reggae One', cursive;
+    color: yellow;
+    text-shadow: -7px 3px  black;
+    
+    
+}
+
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+
+  }
+  

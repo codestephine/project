@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(42, 5, 90);
+
+}
+
+section .card .image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 5px;
+    background: #ff0122;
+
+}
+
+section .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: inherit;
+    border-radius: 50%;
+    border: 5px solid white; 
+    
+}
+
+.card {
+    box-shadow: 0px 0px 20px 0 rgb(10, 1, 1);
+    padding-block-end: 1px;
+    background-color: gray;
+    border-radius: 15px;
+    position: relative;
+    width: 390px;
+    
+
+  }
+
+.card::before {
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #18a50c;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.card .card-content {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+
+  }
+
+.card .Name-Person {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: large;   
+    
+}
+
+.Name-Person .name {
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+
+.card .button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: auto;
+
+}
+
+.card .button button {
+    background: #7d2ae8;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    translate: all 0.3s ease;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow-transform;
+    transition-property: box-shadow, transform;
+
+
+}
+
+.button button:hover {
+    background: #6616d0;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
